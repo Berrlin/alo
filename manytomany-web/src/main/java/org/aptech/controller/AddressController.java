@@ -41,6 +41,19 @@ public class AddressController extends HttpServlet {
             Person person = personEntityService.getEntityById(Long.valueOf(perId));
             req.setAttribute("person",person);
             req.getServletContext().getRequestDispatcher("/result.jsp").forward(req,resp);
+        } else if (action.equalsIgnoreCase("update")) {
+            personEntityService.setType(Person.class);
+            String id = req.getParameter("id");
+            String personName = req.getParameter("name");
+            Person person = personEntityService.getEntityById(Long.valueOf(id));
+            person.setName(personName);
+
+            String[] addresses = req.getParameterValues("number");
+            for (String address : addresses) {
+                if(!person.getAddresses().contains(address)){
+//                    person.getPhones().add(phone);
+                }
+            }
         }
 
     }
