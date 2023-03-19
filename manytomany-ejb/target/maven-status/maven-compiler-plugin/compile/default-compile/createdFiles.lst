@@ -1,0 +1,4 @@
+org\aptech\entity\Person.class
+org\aptech\services\EntityService.class
+org\aptech\entity\Address.class
+org\aptech\services\EntityBean.class

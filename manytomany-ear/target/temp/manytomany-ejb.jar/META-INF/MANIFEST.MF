@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Maven EJB Plugin 3.1.0
+Build-Jdk-Spec: 17
+Class-Path: lib/hibernate-core.jar lib/jakarta.persistence-api.jar lib/j
+ akarta.transaction-api.jar lib/jboss-logging.jar lib/hibernate-commons-
+ annotations.jar lib/jandex.jar lib/classmate.jar lib/byte-buddy.jar lib
+ /jakarta.xml.bind-api.jar lib/jakarta.activation.jar lib/jaxb-runtime.j
+ ar lib/txw2.jar lib/istack-commons-runtime.jar lib/jakarta.inject-api.j
+ ar lib/antlr4-runtime.jar lib/mssql-jdbc.jar lib/jakarta.jakartaee-web-
+ api.jar
+
